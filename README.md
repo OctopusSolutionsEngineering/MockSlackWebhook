@@ -1,5 +1,11 @@
 This project exposes a web server that accepts a Slack webhook post and returns 200 OK.
 
+## Hosted instance
+
+```
+curl -s https://mockslackwebhook.octopusdemos.com/   -d '{"whatever": "hello world"}'
+```
+
 ## Run locally
 
 ```bash
